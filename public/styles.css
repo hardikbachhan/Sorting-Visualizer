@@ -1,0 +1,50 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: white;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  margin: 0;
+}
+
+.settings-panel {
+  background-color: #30475e;
+  margin: 0;
+  height: 100px;
+}
+
+.title{
+  text-align: left;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 2rem;
+  display: inline-block;
+  color: #e8e8e8;
+  width: 33%;
+}
+
+div.settings-panel div{
+  display: inline-block;
+}
+
+.sort-button{
+  display: block;
+  width: 30%;
+}
+
+.graph {
+  margin-top: 100px;
+}
+
+.footer {
+  padding-top: 1px;
+  height: 56px;
+  background-color: #e8e8e8;
+}
+
+.bar {
+  background-color: red;
+  display: inline-block;
+  width: 3px;
+  height: 100px;
+  margin: 0 0 3px 3px;
+}
